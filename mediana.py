@@ -17,10 +17,4 @@ print("Variância de arr é {:.02f}".format(st.variance(arr)))
 print("O desvio padrão de arr é {:.02f}".format(st.stdev(arr)))
 st.quantiles(arr, n=4, method='inclusive') 
 
-#lembra da diferença entre inclusivo e exclusivo?
-
 st.quantiles(arr, n=10, method='inclusive')
-
-#Quais as vantagens e desvantagens de aumentar a minha divisão de amostra?
-
-
